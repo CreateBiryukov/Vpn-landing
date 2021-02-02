@@ -619,7 +619,7 @@ footer{
     color: #4F5665;
     padding-top: 11.5%;
 }
-
+/*
 @media (max-width: 1432px){
     .header-button_signup{
         font-size: 15px;
@@ -760,5 +760,198 @@ footer{
     }
     .nav_text{
         font-size: 8px;
+    }
+}
+*/
+@media (max-width:1024px){
+    .nav_text{
+        font-size: 12px;
+    }
+    .header-button_signin{
+        font-size: 11px;
+    }
+    .header-button_signup{
+        font-size: 11px;
+    }
+    .main_button{
+        font-size: 11px;
+    }
+    .info_title{
+        font-size: 20px;
+    }
+    .info_text{
+        font-size: 15px;
+    }
+    .checklist_text{
+        font-size: 9px;
+    }
+    .author_info_name{
+        font-size: 17px;
+    }
+    .menu_text {
+        font-size: 13px;
+    }
+    .menu_title{
+        font-size: 15px;
+    }
+    .plan_card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 60%;
+    }
+}
+@media (max-width:768px){
+    .header-button_signin{
+        font-size: 8px;
+    }
+    .header-button_signup{
+        font-size: 8px;
+    }
+    .main_title {
+        font-size: 37px;
+    }
+    .main_button {
+        font-size: 8px;
+    }
+    .features-block_title{
+        font-size: 28px;
+    }
+    .checklist_text {
+        font-size: 6px;
+    }
+    .review_title{
+        font-size: 27px;
+    }
+    .author_info_name {
+        font-size: 11px;
+    }
+    .author_info_country{
+        font-size: 10px;
+    }
+    .menu_title {
+        font-size: 11px;
+    }
+    .menu_text {
+        font-size: 10px;
+    }
+}
+@media (max-width:426px){
+    header{
+        flex-direction: column;
+    }
+    .header-logo{
+        width: auto;
+    }
+    nav{
+        padding-top: 5%;
+        width: 100%;
+    }
+    .nav_text{
+        padding-right: 9%;
+    }
+    .header-button{
+        padding-top: 10%;
+        width: 100%;
+    }
+    .header-button_signin {
+        font-size: 23px;
+    }
+    .header-button_signup {
+        font-size: 23px;
+    }
+    .main_title{
+        width: 100%;
+    } 
+    .main{
+        background-position: 186px 91px;
+    }
+    .main_text{
+        width: 100%;
+    }
+    .main_button{
+        width: auto;
+        font-size: 16px;
+    }
+    .stats{
+        width: 100%;
+    }
+    .features-block_title {
+        font-size: 23px;
+    }
+    .features-block{
+        width: 100%;
+    }
+    .features{
+        background-position: 155px 67px;
+    }
+    .features-block_text{
+        width: 61%;
+    }
+    .plan_text{
+        width: 54%;
+    }
+    .card {
+        width: 100%;
+    }
+    .map_title{
+        width: auto;
+    }
+    .map_text{
+        width: auto;
+    }
+    .sponsored{
+        width: auto;
+    }
+    .review_text{
+        width: auto;
+    }
+    .review_title{
+        width: auto;
+    }
+    .review_comment{
+        flex-direction: column;
+    align-items: center;
+    }
+    .comment{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .author_info_name {
+        font-size: 17px;
+    }
+    .author_info_country {
+        font-size: 14px;
+    }
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+    .subscribe_info{
+        width: auto;
+    }
+    .subscribe_info_title{
+        font-size: 32px;
+    }
+    .subscribe_button{
+        margin-bottom: 6%;
+    }
+    .footer_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_social{
+        width: auto;
+    }
+    .footer_menu{
+        width: 100%;
+        padding-top: 10%;
+    }
+    .menu_text{
+        padding-top: 0px;
+    }
+    .menu_title{
+        padding-top: 0px;
     }
 }
